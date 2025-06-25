@@ -1,7 +1,7 @@
 module controlUnit(
     input [6:0] opCode,
     input [2:0] funct3,
-    input funct7, op5,
+    input [6:0] funct7,
     input zero,
     output RegWrite, ALUSrc, MemWrite, ResultSrc, PCSrc,
     output [1:0] ImmSrc,
@@ -24,8 +24,8 @@ module controlUnit(
     ALU_Decoder alu_decoder(
         .ALUOp(ALUOp),
         .funct3(funct3),
-        .funct7(funct7),
-        .op5(op5),
+        .funct7(funct7[5]),
+        .op5(opCode[5]),
         .ALUControl(ALUControl)
     );
 endmodule
@@ -76,13 +76,13 @@ always @(*) begin
             ALUOp = 2'b01;
             end 
         default: begin
-            RegWrite = 1'bx;
-            ImmSrc = 2'bx;
-            ALUSrc = 1'bx;
-            MemWrite = 1'bx;
-            ResultSrc = 1'bx;
-            PCSrc = 1'bx;
-            ALUOp = 2'bx; 
+            RegWrite = 1'b0;
+            ImmSrc = 2'b0;
+            ALUSrc = 1'b0;
+            MemWrite = 1'b0;
+            ResultSrc = 1'b0;
+            PCSrc = 1'b0;
+            ALUOp = 2'b0; 
          end
     endcase
 end
@@ -100,7 +100,7 @@ always @(*) begin
         2'b10: begin
             case (funct3)
                 3'b000:begin
-                    ALUControl= ({op5,funct7} == 2'b11)?3'b000: 3'b001;
+                    ALUControl= ({op5,funct7} == 2'b11)?3'b001: 3'b000;
                 end 
                 3'b010: ALUControl  = 3'b010;
                 3'b110: ALUControl =   3'b011;

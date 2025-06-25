@@ -1,4 +1,27 @@
-# Compile of ALU.v was successful.
-# Compile of controlUnit.v failed with 2 errors.
-# 2 compiles, 1 failed with 2 errors.
 # Compile of controlUnit.v was successful.
+vsim work.SCP_Tb
+# vsim work.SCP_Tb 
+# Start time: 23:45:01 on Jun 19,2025
+# Loading work.SCP_Tb
+# Loading work.SCP
+# Loading work.nextPC
+# Loading work.instructionMem
+# Loading work.controlUnit
+# Loading work.mainDecoder
+# Loading work.ALU_Decoder
+# Loading work.dataPath
+# Loading work.registerFile
+# Loading work.signExtension
+# Loading work.alu
+# Loading work.dataMemory
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/SCP_Tb/s1/*
+add wave -position insertpoint sim:/SCP_Tb/s1/datapath/*
+add wave -position insertpoint sim:/SCP_Tb/s1/ctrU/*
+run -all
+# ** Note: $finish    : C:/Users/hp/RISCV_SCP/simtb.v(30)
+#    Time: 600 ps  Iteration: 0  Instance: /SCP_Tb
+# 1
+# Break in Module SCP_Tb at C:/Users/hp/RISCV_SCP/simtb.v line 30
+# End time: 21:20:12 on Jun 20,2025, Elapsed time: 21:35:11
+# Errors: 0, Warnings: 2

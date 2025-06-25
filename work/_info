@@ -10,97 +10,312 @@ z2
 cModel Technology
 dC:/intelFPGA/20.1
 valu
-!s110 1750205472
+Z0 !s110 1750354338
 !i10b 1
 !s100 <4X6G?;n]NC8aK8Zh31>M1
-Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I4[inbT6eA6<3I74zS2Uf=2
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Users/hp/RISCV_SCP
-w1750023725
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/hp/RISCV_SCP
+w1750354186
 8C:/Users/hp/RISCV_SCP/ALU.v
 FC:/Users/hp/RISCV_SCP/ALU.v
-!i122 1
+!i122 48
 L0 1 38
-Z3 OV;L;2020.1;71
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1750205472.000000
+Z5 !s108 1750354338.000000
 !s107 C:/Users/hp/RISCV_SCP/ALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/RISCV_SCP/ALU.v|
 !i113 1
-Z4 o-work work
-Z5 tCvgOpt 0
+Z6 o-work work
+Z7 tCvgOpt 0
 vALU_Decoder
-Z6 !s110 1750205544
+Z8 !s110 1750358685
 !i10b 1
-!s100 QTDzl<:4z3D>XbfMUD=kE1
-R0
-Ianc44dURScH[[_03YO;D_2
+!s100 lD74QiJL57oMhlBiO=OGk3
 R1
+IB`M`W<0HFFf>HP2GF@o911
 R2
-Z7 w1750205540
-Z8 8C:/Users/hp/RISCV_SCP/controlUnit.v
-Z9 FC:/Users/hp/RISCV_SCP/controlUnit.v
-!i122 3
-L0 91 24
 R3
+Z9 w1750358425
+Z10 8C:/Users/hp/RISCV_SCP/controlUnit.v
+Z11 FC:/Users/hp/RISCV_SCP/controlUnit.v
+!i122 59
+L0 91 24
+R4
 r1
 !s85 0
 31
-Z10 !s108 1750205544.000000
+Z12 !s108 1750358685.000000
 !s107 C:/Users/hp/RISCV_SCP/controlUnit.v|
-Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/RISCV_SCP/controlUnit.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/RISCV_SCP/controlUnit.v|
 !i113 1
-R4
-R5
+R6
+R7
 n@a@l@u_@decoder
 vcontrolUnit
-R6
-!i10b 1
-!s100 7:giEz=n9FbjE8L?<KaR=2
-R0
-Io_z7?UeRWCon^V]fDU32R0
-R1
-R2
-R7
 R8
+!i10b 1
+!s100 oldKOl=bz^3RAhdj@Jz@:0
+R1
+Io;U7Pb7SBdT@PEk_Hh4FH0
+R2
+R3
 R9
-!i122 3
+R10
+R11
+!i122 59
 L0 1 31
-R3
-r1
-!s85 0
-31
-R10
-Z12 !s107 C:/Users/hp/RISCV_SCP/controlUnit.v|
-R11
-!i113 1
 R4
-R5
-ncontrol@unit
-vmainDecoder
-R6
-!i10b 1
-!s100 46d2[0H:^XNEICVbe7U6Q1
-R0
-IRD0H8>d?5Ng8AeKBkK7mG0
-R1
-R2
-R7
-R8
-R9
-!i122 3
-L0 33 57
-R3
 r1
 !s85 0
 31
-R10
 R12
-R11
+Z14 !s107 C:/Users/hp/RISCV_SCP/controlUnit.v|
+R13
 !i113 1
+R6
+R7
+ncontrol@unit
+vdataMemory
+Z15 !s110 1750357960
+!i10b 1
+!s100 Y2AUeGJT29]LW?lE4gDPc2
+R1
+ICgQDb^JJM5FY[UenK1^a11
+R2
+R3
+Z16 w1750357940
+Z17 8C:/Users/hp/RISCV_SCP/memory.v
+Z18 FC:/Users/hp/RISCV_SCP/memory.v
+!i122 58
+L0 39 11
 R4
+r1
+!s85 0
+31
+Z19 !s108 1750357960.000000
+Z20 !s107 C:/Users/hp/RISCV_SCP/memory.v|
+Z21 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/RISCV_SCP/memory.v|
+!i113 1
+R6
+R7
+ndata@memory
+vdataPath
+R0
+!i10b 1
+!s100 j]G4U_9VY6<d3MFQH569j0
+R1
+I21kMR0:=j3_iD4MlBj1@n2
+R2
+R3
+Z22 w1750354318
+Z23 8C:/Users/hp/RISCV_SCP/dataPath.v
+Z24 FC:/Users/hp/RISCV_SCP/dataPath.v
+!i122 52
+L0 1 26
+R4
+r1
+!s85 0
+31
 R5
+Z25 !s107 C:/Users/hp/RISCV_SCP/dataPath.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/RISCV_SCP/dataPath.v|
+!i113 1
+R6
+R7
+ndata@path
+vinstructionMem
+R15
+!i10b 1
+!s100 B5bEh5iRQ]nW`BMC8W;AL2
+R1
+IWQhlOjeFJPG84;1bn32JO0
+R2
+R3
+R16
+R17
+R18
+!i122 58
+L0 1 14
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R6
+R7
+ninstruction@mem
+vmainDecoder
+R8
+!i10b 1
+!s100 9P<MTJdN[BmJ9BBAJ=a2G1
+R1
+In8JnON5[KfXo[=0YAHg7z3
+R2
+R3
+R9
+R10
+R11
+!i122 59
+L0 33 57
+R4
+r1
+!s85 0
+31
+R12
+R14
+R13
+!i113 1
+R6
+R7
 nmain@decoder
+vnextPC
+!s110 1750355726
+!i10b 1
+!s100 g5Zc]LAMGYVTU2bGOK19<2
+R1
+IcGK7QKmNR6VKbYhTO8M3N0
+R2
+R3
+w1750355692
+Z27 8C:/Users/hp/RISCV_SCP/pc.v
+Z28 FC:/Users/hp/RISCV_SCP/pc.v
+!i122 55
+Z29 L0 1 21
+R4
+r1
+!s85 0
+31
+!s108 1750355725.000000
+Z30 !s107 C:/Users/hp/RISCV_SCP/pc.v|
+Z31 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/RISCV_SCP/pc.v|
+!i113 1
+R6
+R7
+nnext@p@c
+vprogram_counter
+!s110 1750354172
+!i10b 1
+!s100 ej7deM[SFV`H<R5EGU^_P0
+R1
+IKjFmXl160[<[PSOQ6OBfK3
+R2
+R3
+w1750322554
+R27
+R28
+!i122 37
+R29
+R4
+r1
+!s85 0
+31
+!s108 1750354172.000000
+R30
+R31
+!i113 1
+R6
+R7
+vregisterFile
+R15
+!i10b 1
+!s100 Bb5a_==K9Kf8X=nFeMMZT2
+R1
+IXS`L1hHQn9@<>7XdzMPl?0
+R2
+R3
+R16
+R17
+R18
+!i122 58
+L0 16 22
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R6
+R7
+nregister@file
+vSCP
+R0
+!i10b 1
+!s100 ]bA9jZWgJ1n_lE`XP<0k>0
+R1
+Id:H2ccdDC<aEh;lf0HPlY0
+R2
+R3
+w1750354287
+8C:/Users/hp/RISCV_SCP/top.v
+FC:/Users/hp/RISCV_SCP/top.v
+!i122 53
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/hp/RISCV_SCP/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/RISCV_SCP/top.v|
+!i113 1
+R6
+R7
+n@s@c@p
+vSCP_Tb
+R0
+!i10b 1
+!s100 kGC[`m8l:63D<1eP0bGeR0
+R1
+InUoQa9j@d?<oaR<cfYHdn2
+R2
+R3
+w1750354192
+8C:/Users/hp/RISCV_SCP/simtb.v
+FC:/Users/hp/RISCV_SCP/simtb.v
+!i122 54
+L0 2 31
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/hp/RISCV_SCP/simtb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/RISCV_SCP/simtb.v|
+!i113 1
+R6
+R7
+n@s@c@p_@tb
+vsignExtension
+R0
+!i10b 1
+!s100 2iWzbQ`>Z7hHFmPVT<FWd2
+R1
+I6de[^V9>>c0JR6[=^F;E72
+R2
+R3
+R22
+R23
+R24
+!i122 52
+L0 28 15
+R4
+r1
+!s85 0
+31
+R5
+R25
+R26
+!i113 1
+R6
+R7
+nsign@extension

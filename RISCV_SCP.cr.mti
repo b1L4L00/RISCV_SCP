@@ -1,8 +1,57 @@
-C:/Users/hp/RISCV_SCP/ALU.v {1 {vlog -work work -stats=none C:/Users/hp/RISCV_SCP/ALU.v
+C:/Users/hp/RISCV_SCP/controlUnit.v {1 {vlog -work work -stats=none C:/Users/hp/RISCV_SCP/controlUnit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controlUnit
+-- Compiling module mainDecoder
+-- Compiling module ALU_Decoder
+
+Top level modules:
+	controlUnit
+
+} {} {}} C:/Users/hp/RISCV_SCP/memory.v {1 {vlog -work work -stats=none C:/Users/hp/RISCV_SCP/memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instructionMem
+-- Compiling module registerFile
+-- Compiling module dataMemory
+
+Top level modules:
+	instructionMem
+	registerFile
+	dataMemory
+
+} {} {}} C:/Users/hp/RISCV_SCP/ALU.v {1 {vlog -work work -stats=none C:/Users/hp/RISCV_SCP/ALU.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module alu
 
 Top level modules:
 	alu
+
+} {} {}} C:/Users/hp/RISCV_SCP/top.v {1 {vlog -work work -stats=none C:/Users/hp/RISCV_SCP/top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SCP
+
+Top level modules:
+	SCP
+
+} {} {}} C:/Users/hp/RISCV_SCP/dataPath.v {1 {vlog -work work -stats=none C:/Users/hp/RISCV_SCP/dataPath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dataPath
+-- Compiling module signExtension
+
+Top level modules:
+	dataPath
+
+} {} {}} C:/Users/hp/RISCV_SCP/simtb.v {1 {vlog -work work -stats=none C:/Users/hp/RISCV_SCP/simtb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SCP_Tb
+
+Top level modules:
+	SCP_Tb
+
+} {} {}} C:/Users/hp/RISCV_SCP/pc.v {1 {vlog -work work -stats=none C:/Users/hp/RISCV_SCP/pc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module nextPC
+
+Top level modules:
+	nextPC
 
 } {} {}}
